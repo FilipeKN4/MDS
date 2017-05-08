@@ -2,6 +2,8 @@
 #include <stdlib.h>
 
 void Opera(double x, double y) {
+  double sum, sub, mult, divi;
+
   sum=x+y;
   sub=x-y;
   mult=x*y;
@@ -12,7 +14,7 @@ void Opera(double x, double y) {
 }
 
 int main(int argc, char const *argv[]) {
-  double x, y, sum, sub, mult, divi;
+  double x, y;
   scanf("%lf %lf", &x, &y);
 
   Opera(x, y);
